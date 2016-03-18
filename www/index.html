@@ -12,6 +12,11 @@
             var canvas = $('#canvas')[0];
             var context = canvas.getContext('2d');
             
+            //線の設定
+            context.lineWidth = 7;
+            context.lineJoin = 'round';
+            context.lineCap = 'round';
+            
             var startX, startY, color = 'red';
             
             //画面タッチ時の処理
@@ -44,6 +49,9 @@
                 
                 var endX = point.x;
                 var endY = point.y;
+                
+                //色の設定
+                context.strokeStyle = color;
                 
                 //直線を描画
                 context.beginPath();

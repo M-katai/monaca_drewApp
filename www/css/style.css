@@ -13,7 +13,7 @@ html, body {
 
 body {
     background: white url(../img/title.png) 22px 37px no-repeat;
-    background-size: 105px 11px;
+    background-size: 150px 50px;
     padding: 0;
     margin: 0;
 }
@@ -39,7 +39,7 @@ body {
 
 .painter-menu-item-red {
     background: #f5bdb9 url(../img/red01.png) no-repeat center;
-    background-size: 23px 12px;
+    background-size: 30px 15px;
     border-color: #e65a50;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .painter-menu-item-delete {
     background: #ccc url(../img/del01.png) no-repeat center;
-    background-size: 15px 16px;
+    background-size: 40px 30px;
     border-color: #808080;
 }
 
